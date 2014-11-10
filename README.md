@@ -19,5 +19,5 @@ documentation.
 You can use the Javascript code from the Sheepit demos by replacing the js code written in the file "sheepit.php".
 
 To use with Contact Form 7, you will get best results if you build your form with HTML input tags instead of the Contact Form 7
-shortcodes. In the future I hope to develop this into a stable plugin with full Contact Form 7 integration, but for now it only
+tags. In the future I hope to develop this into a stable plugin with full Contact Form 7 integration, but for now it only
 provides the basic functionality.
