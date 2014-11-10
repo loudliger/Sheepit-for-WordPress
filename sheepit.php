@@ -13,8 +13,6 @@ function sheepit_scripts() {
 
 	wp_register_script( 'sheepit', '/wp-content/plugins/sheepit/js/jquery.sheepItPlugin.js', array( 'jquery' ), false, false );
 	wp_enqueue_script( 'sheepit' );
-
-	wp_enqueue_script( 'custom_sheepit', '/wp-content/plugins/sheepit/js/custom.js', array( ' jquery' ), false, false);
 }
 
 // Hook into the 'wp_enqueue_scripts' action
