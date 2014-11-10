@@ -20,6 +20,9 @@ function sheepit_scripts() {
 // Hook into the 'wp_enqueue_scripts' action
 add_action( 'wp_enqueue_scripts', 'sheepit_scripts' );
 
+// Insert custom javascript for your form. Edit this to suit your needs. 
+// See jQuery plugin source for examples: http://www.mdelrosso.com/sheepit/index.php?lng=en_GB
+
 function insert_function() {
     echo "
 <script>
